@@ -93,6 +93,9 @@ body {
     font-size: 25px;
     line-height: 25px;
     font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navLinks ul {
@@ -1082,6 +1085,14 @@ footer .third .touch ul li a {
 }
 
 @media screen and (max-width:600px) {
+
+    .modegroup {
+        width: 10%;
+        color: #212529;
+        font-size: 25px;
+        line-height: 25px;
+        font-weight: 900;
+    }
 
     .navLinks {
 
