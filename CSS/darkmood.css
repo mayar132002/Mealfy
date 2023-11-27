@@ -1,0 +1,203 @@
+/* dark mood */
+:root:has(#dark:checked) .navbar {
+    background-color: #171717;
+}
+
+@media screen and (max-width: 1200px) {
+
+    :root:has(#dark:checked) .navLinks {
+        background-color: #202020;
+        color: #fff;
+    }
+}
+
+:root:has(#dark:checked) *::selection{
+    background-color: #C17E1F;
+    color: #000;
+}
+
+:root:has(#dark:checked) .home {
+    background-color: #252525;
+}
+
+:root:has(#dark:checked) .logo a {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .logo a::after {
+    content: ".";
+    color: #C17E1F;
+}
+
+:root:has(#dark:checked) .navLinks a::after {
+    background-color: #C17E1F;
+}
+
+:root:has(#dark:checked) .navLinks ul li:hover {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .home-content .left-content h2 {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .home-content .left-content .book-btn {
+    background-color: #C17E1F;
+
+}
+
+:root:has(#dark:checked) .home-content .left-content .book-btn:hover {
+    background-color: #ffab35;
+}
+
+:root:has(#dark:checked) .watch-btn {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .watch-btn:hover {
+    color: #ffab35;
+}
+
+:root:has(#dark:checked) .watch-btn .icon {
+    background-image: linear-gradient(to right, #C17E1F 0 50%, transparent 50% 100%);
+}
+
+:root:has(#dark:checked) .watch-btn .icon::before {
+    background-color: #171717;
+}
+
+:root:has(#dark:checked) .chefs {
+    background-color: #202020;
+}
+
+:root:has(#dark:checked) .chefs .chefs-header h2 {
+    color: #9F9F93;
+}
+
+:root:has(#dark:checked) .chefs .chefs-header p {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .chefs .chefs-header span {
+    color: #C17E1F;
+}
+
+:root:has(#dark:checked) .chef-content h3 {
+    color: #fff
+}
+
+:root:has(#dark:checked) .svg svg path {
+    fill: #202020;
+}
+
+:root:has(#dark:checked) .chef-content p {
+    color: #9f9f9f;
+}
+
+:root:has(#dark:checked) .chef-content span {
+    color: #9f9f9f;
+}
+
+
+:root:has(#dark:checked) .light #dark i {
+    visibility: visible;
+}
+
+:root:has(#dark:checked) #dark i {
+    visibility: hidden;
+    color: #fff;
+}
+
+
+/* gallery */
+:root:has(#dark:checked) .gallery {
+    background-color: #252525;
+}
+
+:root:has(#dark:checked) .gallery-content h2 {
+    color: #78999B;
+}
+
+:root:has(#dark:checked) .gallery-content p {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .gallery-content span {
+    color: #C17E1F;
+
+}
+
+/* contact */
+
+:root:has(#dark:checked) .contact {
+    background-color: #202020;
+}
+
+:root:has(#dark:checked) .contact-content p {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .contact-content span {
+    color: #C17E1F;
+}
+
+/* 0D0D0D */
+
+
+:root:has(#dark:checked) .contact .content-cards>div {
+    background-color: #0D0D0D;
+}
+
+
+/* ADADAD */
+
+:root:has(#dark:checked) .contact .content-cards .icon {
+    background-color: #C17E1F;
+}
+
+:root:has(#dark:checked) .contact .content-cards div h3 {
+    color: #ADADAD;
+}
+
+:root:has(#dark:checked) .contact .content-cards div p {
+    color: #fff;
+}
+
+:root:has(#dark:checked) .contact .content-cards div a {
+    color: #fff;
+}
+
+/* 171717 */
+
+:root:has(#dark:checked) .contact-form {
+    box-shadow: 0 0 1.875rem #171717;
+}
+
+:root:has(#dark:checked) .item-input input:focus {
+    border: none;
+    outline: 2px solid #C17E1F;
+}
+
+:root:has(#dark:checked) .item-input-2 textarea:focus {
+    border: none;
+    outline: 2px solid #C17E1F;
+}
+
+:root:has(#dark:checked) .submit-butto {
+    background-color: #C17E1F;
+    border-color: #C17E1F;
+}
+
+:root:has(#dark:checked) footer .form button {
+    background-color: #C17E1F;
+}
+
+:root:has(#dark:checked) footer .third .touch ul li i {
+    color: #C17E1F;
+
+}
+
+:root:has(#dark:checked) footer .form input:focus {
+    outline: 2px solid #C17E1F;
+    border: none;
+}
